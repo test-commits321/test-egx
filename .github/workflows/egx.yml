@@ -1,0 +1,60 @@
+name: EGX30 scheduled project test
+
+on:
+  schedule:
+    - cron: '50 8 * * 0-4'
+      timezone: Africa/Cairo
+    - cron: '32 10 * * 0-4'
+      timezone: Africa/Cairo
+    - cron: '35 15 * * 0-4'
+      timezone: Africa/Cairo
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: egx30-daily-state
+  cancel-in-progress: false
+
+jobs:
+  egx:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-24.04
+    timeout-minutes: ${{ github.event.schedule == '50 8 * * 0-4' && 73 || github.event.schedule == '32 10 * * 0-4' && 5 || 8 }}
+    env:
+      EGX_SCHEDULE: ${{ github.event.schedule }}
+      EGX_BRANCH: ${{ github.event.repository.default_branch }}
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Run the scheduled phase
+        id: run
+        run: bash deploy/github-phase.sh
+      - name: Save updated models and results
+        if: ${{ always() && (steps.run.outcome == 'success' || steps.run.outcome == 'failure') }}
+        shell: bash
+        run: |
+          git add -- data
+          if [[ -d runtime ]]; then
+            git add -- runtime
+          fi
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update EGX forecasts and results'
+          if ! git push origin "HEAD:refs/heads/$EGX_BRANCH"; then
+            git pull --rebase --no-tags origin "$EGX_BRANCH"
+            git push origin "HEAD:refs/heads/$EGX_BRANCH"
+          fi
