@@ -1,0 +1,34 @@
+{
+  "schema_version": 2,
+  "trial_id": "8450f7efc64847c18d4c02b755d0df17",
+  "trial_mode": "continuous",
+  "predictions": [],
+  "started_at_cairo": "2026-11-23T17:00:50.764800+02:00",
+  "completed_at_cairo": null,
+  "recent_egx": [
+    {
+      "date": "2026-11-16",
+      "close": 52199.83
+    },
+    {
+      "date": "2026-11-17",
+      "close": 51681.62
+    },
+    {
+      "date": "2026-11-18",
+      "close": 51544.82
+    },
+    {
+      "date": "2026-11-19",
+      "close": 51458.04
+    },
+    {
+      "date": "2026-11-22",
+      "close": 49989.79
+    },
+    {
+      "date": "2026-11-23",
+      "close": 50711.96
+    }
+  ]
+}

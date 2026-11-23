@@ -1,0 +1,15 @@
+[Unit]
+Description=EGX30 forecasts and daily model training
+
+[Service]
+Type=simple
+WorkingDirectory=%h/Global_EGX_Predictor
+ExecStart=%h/Global_EGX_Predictor/.venv/bin/python -u app.py start
+Environment=OPENBLAS_NUM_THREADS=1
+Environment=OMP_NUM_THREADS=1
+UMask=0077
+Restart=always
+RestartSec=30s
+
+[Install]
+WantedBy=default.target

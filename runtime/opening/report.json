@@ -1,0 +1,228 @@
+{
+  "report_version": 2,
+  "updated_at_cairo": "2026-11-23T17:00:50.546872+02:00",
+  "lookback_calendar_days": 600,
+  "window_start": "2025-04-03",
+  "window_end": "2026-11-23",
+  "first_egx_open_session": "2025-04-03",
+  "last_egx_open_session": "2026-11-23",
+  "egx_open_sessions": 397,
+  "last_egx_open_gap": 0.002024412980247803,
+  "market_counts": [
+    {
+      "key": "JAPAN",
+      "index": "Nikkei 225",
+      "paired_sessions": 290,
+      "foreign_opened_up": 169,
+      "both_opened_up": 144,
+      "foreign_opened_non_up": 121,
+      "egypt_up_when_foreign_non_up": 91,
+      "egypt_up_given_foreign_up": 0.8520710059171598,
+      "egypt_up_given_foreign_non_up": 0.7520661157024794,
+      "egypt_up_on_paired_days": 0.8103448275862069,
+      "conditional_ci_low": 0.7907411718755772,
+      "conditional_ci_high": 0.8977504875397486
+    },
+    {
+      "key": "KOREA",
+      "index": "KOSPI",
+      "paired_sessions": 297,
+      "foreign_opened_up": 183,
+      "both_opened_up": 153,
+      "foreign_opened_non_up": 114,
+      "egypt_up_when_foreign_non_up": 85,
+      "egypt_up_given_foreign_up": 0.8360655737704918,
+      "egypt_up_given_foreign_non_up": 0.7456140350877193,
+      "egypt_up_on_paired_days": 0.8013468013468014,
+      "conditional_ci_low": 0.7756226790586419,
+      "conditional_ci_high": 0.8826889603193125
+    },
+    {
+      "key": "TAIWAN",
+      "index": "TAIEX",
+      "paired_sessions": 304,
+      "foreign_opened_up": 193,
+      "both_opened_up": 161,
+      "foreign_opened_non_up": 111,
+      "egypt_up_when_foreign_non_up": 83,
+      "egypt_up_given_foreign_up": 0.8341968911917098,
+      "egypt_up_given_foreign_non_up": 0.7477477477477478,
+      "egypt_up_on_paired_days": 0.8026315789473685,
+      "conditional_ci_low": 0.7753117410431022,
+      "conditional_ci_high": 0.8800375347197446
+    },
+    {
+      "key": "SHANGHAI",
+      "index": "Shanghai Composite",
+      "paired_sessions": 297,
+      "foreign_opened_up": 133,
+      "both_opened_up": 115,
+      "foreign_opened_non_up": 164,
+      "egypt_up_when_foreign_non_up": 125,
+      "egypt_up_given_foreign_up": 0.8646616541353384,
+      "egypt_up_given_foreign_non_up": 0.7621951219512195,
+      "egypt_up_on_paired_days": 0.8080808080808081,
+      "conditional_ci_low": 0.7962007135432557,
+      "conditional_ci_high": 0.9126480575906685
+    },
+    {
+      "key": "SHENZHEN",
+      "index": "Shenzhen Component",
+      "paired_sessions": 297,
+      "foreign_opened_up": 151,
+      "both_opened_up": 130,
+      "foreign_opened_non_up": 146,
+      "egypt_up_when_foreign_non_up": 110,
+      "egypt_up_given_foreign_up": 0.8609271523178808,
+      "egypt_up_given_foreign_non_up": 0.7534246575342466,
+      "egypt_up_on_paired_days": 0.8080808080808081,
+      "conditional_ci_low": 0.7967393701331015,
+      "conditional_ci_high": 0.9072058228899619
+    },
+    {
+      "key": "HONG_KONG",
+      "index": "Hang Seng",
+      "paired_sessions": 301,
+      "foreign_opened_up": 167,
+      "both_opened_up": 139,
+      "foreign_opened_non_up": 134,
+      "egypt_up_when_foreign_non_up": 104,
+      "egypt_up_given_foreign_up": 0.8323353293413174,
+      "egypt_up_given_foreign_non_up": 0.7761194029850746,
+      "egypt_up_on_paired_days": 0.8073089700996677,
+      "conditional_ci_low": 0.7683478595759679,
+      "conditional_ci_high": 0.8813767976503752
+    },
+    {
+      "key": "BSE",
+      "index": "Sensex",
+      "paired_sessions": 300,
+      "foreign_opened_up": 173,
+      "both_opened_up": 141,
+      "foreign_opened_non_up": 127,
+      "egypt_up_when_foreign_non_up": 100,
+      "egypt_up_given_foreign_up": 0.815028901734104,
+      "egypt_up_given_foreign_non_up": 0.7874015748031497,
+      "egypt_up_on_paired_days": 0.8033333333333333,
+      "conditional_ci_low": 0.7505504944467488,
+      "conditional_ci_high": 0.8658203142317521
+    },
+    {
+      "key": "NSE",
+      "index": "Nifty 50",
+      "paired_sessions": 300,
+      "foreign_opened_up": 169,
+      "both_opened_up": 141,
+      "foreign_opened_non_up": 131,
+      "egypt_up_when_foreign_non_up": 100,
+      "egypt_up_given_foreign_up": 0.834319526627219,
+      "egypt_up_given_foreign_non_up": 0.7633587786259542,
+      "egypt_up_on_paired_days": 0.8033333333333333,
+      "conditional_ci_low": 0.7709644623753791,
+      "conditional_ci_high": 0.8828133318593423
+    },
+    {
+      "key": "SAUDI",
+      "index": "TASI",
+      "paired_sessions": 144,
+      "foreign_opened_up": 78,
+      "both_opened_up": 69,
+      "foreign_opened_non_up": 66,
+      "egypt_up_when_foreign_non_up": 46,
+      "egypt_up_given_foreign_up": 0.8846153846153846,
+      "egypt_up_given_foreign_non_up": 0.696969696969697,
+      "egypt_up_on_paired_days": 0.7986111111111112,
+      "conditional_ci_low": 0.7950279031382532,
+      "conditional_ci_high": 0.9380955939585778
+    }
+  ],
+  "historical_walk_forward": {
+    "evaluated_sessions": 344,
+    "accuracy": 0.7994186046511628,
+    "baseline_accuracy": 0.7994186046511628,
+    "brier": 0.15983151704025444,
+    "baseline_brier": 0.1616906284508655
+  },
+  "estimate_from_prior_days": {
+    "prob_up": 0.791535071051731,
+    "groups": 5,
+    "market_conditions": {
+      "TAIWAN": {
+        "condition": "NON_UP",
+        "sessions": 110,
+        "egypt_up": 82,
+        "raw_rate": 0.7454545454545455,
+        "probability": 0.7410714285714286
+      },
+      "SHANGHAI": {
+        "condition": "NON_UP",
+        "sessions": 163,
+        "egypt_up": 124,
+        "raw_rate": 0.7607361963190185,
+        "probability": 0.7575757575757576
+      },
+      "SHENZHEN": {
+        "condition": "NON_UP",
+        "sessions": 145,
+        "egypt_up": 109,
+        "raw_rate": 0.7517241379310344,
+        "probability": 0.7482993197278912
+      },
+      "HONG_KONG": {
+        "condition": "NON_UP",
+        "sessions": 133,
+        "egypt_up": 103,
+        "raw_rate": 0.7744360902255639,
+        "probability": 0.7703703703703704
+      },
+      "BSE": {
+        "condition": "UP",
+        "sessions": 172,
+        "egypt_up": 140,
+        "raw_rate": 0.813953488372093,
+        "probability": 0.8103448275862069
+      },
+      "NSE": {
+        "condition": "UP",
+        "sessions": 168,
+        "egypt_up": 140,
+        "raw_rate": 0.8333333333333334,
+        "probability": 0.8294117647058824
+      },
+      "SAUDI": {
+        "condition": "UP",
+        "sessions": 77,
+        "egypt_up": 68,
+        "raw_rate": 0.8831168831168831,
+        "probability": 0.8734177215189873
+      }
+    }
+  },
+  "today_early_market_gaps": {
+    "SHANGHAI": -0.008565941451454728,
+    "SHENZHEN": -0.009826762908754616,
+    "HONG_KONG": -0.010825642978718575,
+    "TAIWAN": -0.003713471548986491,
+    "BSE": 0.00598498024944405,
+    "NSE": 0.0049824726245233375,
+    "SAUDI": 0.0010290710048954654
+  },
+  "sources": {
+    "BSE": "Yahoo ^BSESN",
+    "EGX30": "TradingView EGX:EGX30",
+    "HONG_KONG": "Yahoo ^HSI",
+    "JAPAN": "Yahoo ^N225",
+    "KOREA": "Yahoo ^KS11",
+    "NSE": "Yahoo ^NSEI",
+    "SAUDI": "TradingView TADAWUL:TASI",
+    "SHANGHAI": "Yahoo 000001.SS",
+    "SHENZHEN": "Yahoo 399001.SZ",
+    "TAIWAN": "Yahoo ^TWII"
+  },
+  "live": {
+    "evaluated": 0,
+    "correct": 0,
+    "pending": 0,
+    "void": 0
+  }
+}

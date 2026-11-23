@@ -1,0 +1,532 @@
+{
+  "schema_version": 2,
+  "model_version": 2,
+  "trained_at_cairo": "2026-11-23T15:45:28.819503+02:00",
+  "trained_egx_first_date": "2024-06-03",
+  "trained_egx_last_date": "2026-11-23",
+  "egx_prices_in_history": 600,
+  "egx_target_days": 599,
+  "frozen": true,
+  "features": [
+    "NASDAQ",
+    "NASDAQ_MOM_5",
+    "NYSE",
+    "NYSE_MOM_5",
+    "SHANGHAI",
+    "SHANGHAI_MOM_5",
+    "JAPAN",
+    "JAPAN_MOM_5",
+    "EURONEXT",
+    "EURONEXT_MOM_5",
+    "SHENZHEN",
+    "SHENZHEN_MOM_5",
+    "HONG_KONG",
+    "HONG_KONG_MOM_5",
+    "CANADA",
+    "CANADA_MOM_5",
+    "TAIWAN",
+    "TAIWAN_MOM_5",
+    "BSE",
+    "BSE_MOM_5",
+    "NSE",
+    "NSE_MOM_5",
+    "KOREA",
+    "KOREA_MOM_5",
+    "GERMANY",
+    "GERMANY_MOM_5",
+    "SWITZERLAND",
+    "SWITZERLAND_MOM_5",
+    "SAUDI",
+    "SAUDI_MOM_5",
+    "DOW",
+    "DOW_MOM_5",
+    "FTSE",
+    "FTSE_MOM_5",
+    "IBEX",
+    "IBEX_MOM_5",
+    "EGX_PREV_1",
+    "EGX_PREV_5",
+    "EGX_VOL_5"
+  ],
+  "active_market_keys": [
+    "NASDAQ",
+    "NYSE",
+    "SHANGHAI",
+    "JAPAN",
+    "EURONEXT",
+    "SHENZHEN",
+    "HONG_KONG",
+    "CANADA",
+    "TAIWAN",
+    "BSE",
+    "NSE",
+    "KOREA",
+    "GERMANY",
+    "SWITZERLAND",
+    "SAUDI",
+    "DOW",
+    "FTSE",
+    "IBEX"
+  ],
+  "excluded_market_keys": [],
+  "imputer_medians": [
+    0.0019698704633858144,
+    0.003552396212177289,
+    0.0011893282823547402,
+    0.0026528500233549135,
+    0.0005397856733858619,
+    0.001939111430184104,
+    0.0006278724304602523,
+    0.005895555718078427,
+    -3.331990695731868e-05,
+    0.001827341665816773,
+    -0.0003670793390271321,
+    0.0012548913566410302,
+    0.001294839874159015,
+    0.0029408811223516906,
+    0.001548565720969175,
+    0.0053029890083571285,
+    0.0014372340808415096,
+    0.0069344591099527175,
+    -0.0002415822335684048,
+    -0.0006186001616154679,
+    -0.00025711604818956513,
+    -0.0009551900653096967,
+    0.0014917825284430641,
+    0.005998131632763082,
+    -7.979486621922938e-05,
+    0.003491273750918511,
+    0.0009003470704385119,
+    0.003920100680786076,
+    -0.00011327657646342804,
+    -0.0015868497167533802,
+    0.0009193943662375581,
+    0.002824555150136465,
+    0.0007182214283072419,
+    0.0029883981104958934,
+    0.0012868300157977686,
+    0.005563791258543116,
+    0.0014308931655987456,
+    0.006962867929680261,
+    0.0075250975564156875
+  ],
+  "scaler_mean": [
+    0.0005669339938373627,
+    0.0014544795025974657,
+    0.0005215196703761849,
+    0.0015779639532863402,
+    0.0003201928009629949,
+    0.0009641912106004581,
+    0.00048767585177753134,
+    0.0029366041803249392,
+    -0.00020169342980456636,
+    0.0003738573574499758,
+    0.00012199802816465802,
+    -0.0007346443774584903,
+    0.0002919599485058739,
+    0.0006122436547150683,
+    0.0006619283620110328,
+    0.0029482299821656254,
+    0.0008272361760522578,
+    0.0043810202904411635,
+    -2.8514976389008668e-05,
+    0.00018467791989529785,
+    -8.345449075131166e-05,
+    0.00018114741772248818,
+    0.0008908269619490197,
+    0.00434634984762179,
+    0.00010384213578285852,
+    0.001915555571242352,
+    0.00042560262634570097,
+    0.0026283351672251602,
+    -0.00036738537384495675,
+    -0.001587714468968994,
+    0.000513213958373873,
+    0.001376747017956935,
+    0.00035322353471235176,
+    0.0020894277806491578,
+    0.0007948847198176904,
+    0.003864021560068079,
+    0.0009347596967957265,
+    0.005246269983952444,
+    0.009388256128049825
+  ],
+  "scaler_scale": [
+    0.013598345599685703,
+    0.028782832083378885,
+    0.009955813665070352,
+    0.020792899265675423,
+    0.010681665566009616,
+    0.024303280574772317,
+    0.01802024376605124,
+    0.0351670304660818,
+    0.008805306812916022,
+    0.020163506951310906,
+    0.017888859091961116,
+    0.04045577403952111,
+    0.013719500029081705,
+    0.02929820044703058,
+    0.00886935539703788,
+    0.01783639100559278,
+    0.018203348077256015,
+    0.04010099295445387,
+    0.00854764593065367,
+    0.021201788048156513,
+    0.008461139085903006,
+    0.020853142419819462,
+    0.030598635167713988,
+    0.05559748440166933,
+    0.010375903936073273,
+    0.02171037215282459,
+    0.008015512939304945,
+    0.019822358536975154,
+    0.00851051243544596,
+    0.019643601635015547,
+    0.009154669650712651,
+    0.0189238077762765,
+    0.007216888051628528,
+    0.016883246932081958,
+    0.010220354843718474,
+    0.022048820018566454,
+    0.012038634186306563,
+    0.027456628101153926,
+    0.00502106673211327
+  ],
+  "coefficients": [
+    0.10195484905938877,
+    -0.14330653663311704,
+    0.05606930990459184,
+    -0.24401025366026674,
+    0.1643314538969494,
+    0.2312647978758935,
+    -0.07423892947184792,
+    -0.04318788185103317,
+    -0.19914392854602217,
+    0.07321399691590234,
+    -0.24269049981986648,
+    -0.12799096420171088,
+    -0.1415620529434725,
+    0.18852081763708112,
+    0.05345887907453268,
+    -0.2840179817158889,
+    0.3694277603053801,
+    0.1788157089586477,
+    -0.04148766927029845,
+    0.17018820362408305,
+    -0.01635957360035424,
+    0.06001252424071956,
+    0.2638252804670442,
+    -0.1493178239789635,
+    0.04690401168605089,
+    0.28222584187448957,
+    -0.12338270711614815,
+    -0.4058843071607203,
+    0.1264937288089659,
+    -0.0042036924993315685,
+    0.23152837022349204,
+    0.40029753974695054,
+    0.1619450377096276,
+    0.3029514220438818,
+    -0.08958283250052104,
+    -0.14998235474061353,
+    -0.08018053710519121,
+    -0.05783303984704727,
+    0.11362206849705184
+  ],
+  "intercept": 0.23081635414804533,
+  "market_weights": [
+    {
+      "exchange": "Dow Jones Industrial Average",
+      "key": "DOW",
+      "country": "USA",
+      "ticker": "^DJI",
+      "model_weight": 0.10630036114972585,
+      "signed_standardized_coefficient": 0.23152837022349204,
+      "signed_momentum_standardized_coefficient": 0.40029753974695054
+    },
+    {
+      "exchange": "TWSE",
+      "key": "TAIWAN",
+      "country": "Taiwan",
+      "ticker": "^TWII",
+      "model_weight": 0.09223819071217117,
+      "signed_standardized_coefficient": 0.3694277603053801,
+      "signed_momentum_standardized_coefficient": 0.1788157089586477
+    },
+    {
+      "exchange": "SIX",
+      "key": "SWITZERLAND",
+      "country": "Switzerland",
+      "ticker": "^SSMI",
+      "model_weight": 0.08904553275585071,
+      "signed_standardized_coefficient": -0.12338270711614815,
+      "signed_momentum_standardized_coefficient": -0.4058843071607203
+    },
+    {
+      "exchange": "FTSE 100",
+      "key": "FTSE",
+      "country": "United Kingdom",
+      "ticker": "^FTSE",
+      "model_weight": 0.0782156299530972,
+      "signed_standardized_coefficient": 0.1619450377096276,
+      "signed_momentum_standardized_coefficient": 0.3029514220438818
+    },
+    {
+      "exchange": "KRX",
+      "key": "KOREA",
+      "country": "South Korea",
+      "ticker": "^KS11",
+      "model_weight": 0.06950848408730818,
+      "signed_standardized_coefficient": 0.2638252804670442,
+      "signed_momentum_standardized_coefficient": -0.1493178239789635
+    },
+    {
+      "exchange": "Shanghai",
+      "key": "SHANGHAI",
+      "country": "China",
+      "ticker": "000001.SS",
+      "model_weight": 0.06655634688184646,
+      "signed_standardized_coefficient": 0.1643314538969494,
+      "signed_momentum_standardized_coefficient": 0.2312647978758935
+    },
+    {
+      "exchange": "Shenzhen",
+      "key": "SHENZHEN",
+      "country": "China",
+      "ticker": "399001.SZ",
+      "model_weight": 0.062364605305353996,
+      "signed_standardized_coefficient": -0.24269049981986648,
+      "signed_momentum_standardized_coefficient": -0.12799096420171088
+    },
+    {
+      "exchange": "TMX",
+      "key": "CANADA",
+      "country": "Canada",
+      "ticker": "^GSPTSE",
+      "model_weight": 0.056778159324576895,
+      "signed_standardized_coefficient": 0.05345887907453268,
+      "signed_momentum_standardized_coefficient": -0.2840179817158889
+    },
+    {
+      "exchange": "HKEX",
+      "key": "HONG_KONG",
+      "country": "Hong Kong",
+      "ticker": "^HSI",
+      "model_weight": 0.05553417135693678,
+      "signed_standardized_coefficient": -0.1415620529434725,
+      "signed_momentum_standardized_coefficient": 0.18852081763708112
+    },
+    {
+      "exchange": "Deutsche Boerse",
+      "key": "GERMANY",
+      "country": "Germany",
+      "ticker": "^GDAXI",
+      "model_weight": 0.05537383280194783,
+      "signed_standardized_coefficient": 0.04690401168605089,
+      "signed_momentum_standardized_coefficient": 0.28222584187448957
+    },
+    {
+      "exchange": "S&P 500",
+      "key": "NYSE",
+      "country": "USA",
+      "ticker": "^GSPC",
+      "model_weight": 0.05048632143320749,
+      "signed_standardized_coefficient": 0.05606930990459184,
+      "signed_momentum_standardized_coefficient": -0.24401025366026674
+    },
+    {
+      "exchange": "Euronext (CAC 40 proxy)",
+      "key": "EURONEXT",
+      "country": "Europe",
+      "ticker": "^FCHI",
+      "model_weight": 0.045822346601688234,
+      "signed_standardized_coefficient": -0.19914392854602217,
+      "signed_momentum_standardized_coefficient": 0.07321399691590234
+    },
+    {
+      "exchange": "Nasdaq US",
+      "key": "NASDAQ",
+      "country": "USA",
+      "ticker": "^IXIC",
+      "model_weight": 0.04126354026287908,
+      "signed_standardized_coefficient": 0.10195484905938877,
+      "signed_momentum_standardized_coefficient": -0.14330653663311704
+    },
+    {
+      "exchange": "IBEX 35",
+      "key": "IBEX",
+      "country": "Spain",
+      "ticker": "^IBEX",
+      "model_weight": 0.040305194074465256,
+      "signed_standardized_coefficient": -0.08958283250052104,
+      "signed_momentum_standardized_coefficient": -0.14998235474061353
+    },
+    {
+      "exchange": "BSE",
+      "key": "BSE",
+      "country": "India",
+      "ticker": "^BSESN",
+      "model_weight": 0.03561300886886523,
+      "signed_standardized_coefficient": -0.04148766927029845,
+      "signed_momentum_standardized_coefficient": 0.17018820362408305
+    },
+    {
+      "exchange": "Tadawul",
+      "key": "SAUDI",
+      "country": "Saudi Arabia",
+      "ticker": "^TASI.SR",
+      "model_weight": 0.021988941680248328,
+      "signed_standardized_coefficient": 0.1264937288089659,
+      "signed_momentum_standardized_coefficient": -0.0042036924993315685
+    },
+    {
+      "exchange": "Japan Exchange Group",
+      "key": "JAPAN",
+      "country": "Japan",
+      "ticker": "^N225",
+      "model_weight": 0.019756252878054527,
+      "signed_standardized_coefficient": -0.07423892947184792,
+      "signed_momentum_standardized_coefficient": -0.04318788185103317
+    },
+    {
+      "exchange": "NSE",
+      "key": "NSE",
+      "country": "India",
+      "ticker": "^NSEI",
+      "model_weight": 0.012849079871776907,
+      "signed_standardized_coefficient": -0.01635957360035424,
+      "signed_momentum_standardized_coefficient": 0.06001252424071956
+    }
+  ],
+  "country_weights": [
+    {
+      "country": "USA",
+      "model_weight": 0.19805022284581242
+    },
+    {
+      "country": "China",
+      "model_weight": 0.12892095218720045
+    },
+    {
+      "country": "Taiwan",
+      "model_weight": 0.09223819071217117
+    },
+    {
+      "country": "Switzerland",
+      "model_weight": 0.08904553275585071
+    },
+    {
+      "country": "United Kingdom",
+      "model_weight": 0.0782156299530972
+    },
+    {
+      "country": "South Korea",
+      "model_weight": 0.06950848408730818
+    },
+    {
+      "country": "Canada",
+      "model_weight": 0.056778159324576895
+    },
+    {
+      "country": "Hong Kong",
+      "model_weight": 0.05553417135693678
+    },
+    {
+      "country": "Germany",
+      "model_weight": 0.05537383280194783
+    },
+    {
+      "country": "India",
+      "model_weight": 0.04846208874064214
+    },
+    {
+      "country": "Europe",
+      "model_weight": 0.045822346601688234
+    },
+    {
+      "country": "Spain",
+      "model_weight": 0.040305194074465256
+    },
+    {
+      "country": "Saudi Arabia",
+      "model_weight": 0.021988941680248328
+    },
+    {
+      "country": "Japan",
+      "model_weight": 0.019756252878054527
+    }
+  ],
+  "historical_walk_forward": {
+    "test_days": 249,
+    "accuracy": 0.5823293172690763,
+    "balanced_accuracy": 0.5739341085271318,
+    "majority_baseline_accuracy": 0.5180722891566265,
+    "brier_score": 0.25033391264472504,
+    "auc": 0.6171834625322997,
+    "high_confidence_groups": {
+      "0.55": {
+        "observations": 209,
+        "coverage": 0.8393574297188755,
+        "accuracy": 0.5980861244019139,
+        "accuracy_95pct_wilson_interval": [
+          0.5304237128017536,
+          0.6622078028418049
+        ]
+      },
+      "0.60": {
+        "observations": 172,
+        "coverage": 0.6907630522088354,
+        "accuracy": 0.6162790697674418,
+        "accuracy_95pct_wilson_interval": [
+          0.5418165583663604,
+          0.6856608986176523
+        ]
+      },
+      "0.65": {
+        "observations": 130,
+        "coverage": 0.5220883534136547,
+        "accuracy": 0.6461538461538462,
+        "accuracy_95pct_wilson_interval": [
+          0.5608408523902514,
+          0.7230768533155979
+        ]
+      },
+      "0.70": {
+        "observations": 100,
+        "coverage": 0.40160642570281124,
+        "accuracy": 0.66,
+        "accuracy_95pct_wilson_interval": [
+          0.5627754565831095,
+          0.74538620502457
+        ]
+      }
+    },
+    "accuracy_gain_vs_majority": 0.06425702811244982,
+    "majority_baseline_brier": 0.25508590947645354,
+    "brier_skill_vs_majority": 0.018629005582792235,
+    "recent_baseline_accuracy": 0.5060240963855421,
+    "recent_baseline_brier": 0.25348532527613055,
+    "legacy_model_accuracy": 0.5742971887550201,
+    "legacy_model_brier": 0.24773453365536466,
+    "accuracy_gain_vs_legacy": 0.008032128514056214,
+    "brier_skill_vs_legacy": -0.010492598472268355,
+    "signal_threshold": 0.6,
+    "signal_coverage": 0.6907630522088354,
+    "signal_accuracy": 0.6162790697674418,
+    "signal_observations": 172,
+    "signal_accuracy_interval": [
+      0.5418165583663604,
+      0.6856608986176523
+    ],
+    "available_test_days": 249,
+    "live_data_coverage": 1.0,
+    "refit_every_egx_sessions": 20
+  },
+  "min_available_live_markets": 13,
+  "foreign_delay_minutes": 30,
+  "signal_threshold": 0.6,
+  "training_half_life_sessions": 252,
+  "training_up_rate": 0.5692821368948247,
+  "notes": "Probabilities refer to an increase versus the previous EGX30 close. Coefficient weights describe model associations. Live and historical results are measured separately.",
+  "trial_id": "5f65654a8f9140d088bd5ae8028b676d"
+}

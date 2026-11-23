@@ -1,0 +1,173 @@
+{
+  "recorded_at_cairo": "2026-11-23T16:38:16.488902+02:00",
+  "up": 4,
+  "down": 4,
+  "flat": 0,
+  "rising_share": 0.5,
+  "markets": [
+    {
+      "market": "NASDAQ",
+      "index": "Nasdaq US",
+      "date_cairo": "2026-11-23",
+      "status": "OPENS_LATER"
+    },
+    {
+      "market": "NYSE",
+      "index": "S&P 500",
+      "date_cairo": "2026-11-23",
+      "status": "OPENS_LATER"
+    },
+    {
+      "market": "SHANGHAI",
+      "index": "Shanghai Composite",
+      "date_cairo": "2026-11-23",
+      "status": "AVAILABLE",
+      "price": 3538.947998046875,
+      "price_at_cairo": "2026-11-23T09:00:00+02:00",
+      "available_at_cairo": "2026-11-23T09:30:00+02:00",
+      "source": "Final same-session close",
+      "previous_close": 3533.79296875,
+      "previous_session": "2026-11-20",
+      "return": 0.0014587807894979044
+    },
+    {
+      "market": "JAPAN",
+      "index": "Nikkei 225",
+      "date_cairo": "2026-11-23",
+      "status": "NO_VERIFIED_PRICE"
+    },
+    {
+      "market": "EURONEXT",
+      "index": "Euronext (CAC 40 proxy)",
+      "date_cairo": "2026-11-23",
+      "status": "OPENS_LATER"
+    },
+    {
+      "market": "SHENZHEN",
+      "index": "Shenzhen Component",
+      "date_cairo": "2026-11-23",
+      "status": "AVAILABLE",
+      "price": 10454.369140625,
+      "price_at_cairo": "2026-11-23T09:00:00+02:00",
+      "available_at_cairo": "2026-11-23T09:30:00+02:00",
+      "source": "Final same-session close",
+      "previous_close": 10256.3896484375,
+      "previous_session": "2026-11-20",
+      "return": 0.019303039273440792
+    },
+    {
+      "market": "HONG_KONG",
+      "index": "Hang Seng",
+      "date_cairo": "2026-11-23",
+      "status": "AVAILABLE",
+      "price": 22386.23,
+      "price_at_cairo": "2026-11-23T09:00:00+02:00",
+      "available_at_cairo": "2026-11-23T09:20:00+02:00",
+      "source": "TradingView HSI:HSI",
+      "previous_close": 22410.80078125,
+      "previous_session": "2026-11-20",
+      "return": -0.001096381226616261
+    },
+    {
+      "market": "CANADA",
+      "index": "TMX",
+      "date_cairo": "2026-11-23",
+      "status": "OPENS_LATER"
+    },
+    {
+      "market": "TAIWAN",
+      "index": "TAIEX",
+      "date_cairo": "2026-11-23",
+      "status": "AVAILABLE",
+      "price": 36811.890625,
+      "price_at_cairo": "2026-11-23T07:30:00+02:00",
+      "available_at_cairo": "2026-11-23T08:00:00+02:00",
+      "source": "Final same-session close",
+      "previous_close": 36033.2890625,
+      "previous_session": "2026-11-20",
+      "return": 0.02160784049298159
+    },
+    {
+      "market": "BSE",
+      "index": "Sensex",
+      "date_cairo": "2026-11-23",
+      "status": "AVAILABLE",
+      "price": 83020.91,
+      "price_at_cairo": "2026-11-23T08:45:00+02:00",
+      "available_at_cairo": "2026-11-23T09:05:00+02:00",
+      "source": "TradingView BSE:SENSEX",
+      "previous_close": 83919.7109375,
+      "previous_session": "2026-11-20",
+      "return": -0.010710248253469112
+    },
+    {
+      "market": "NSE",
+      "index": "Nifty 50",
+      "date_cairo": "2026-11-23",
+      "status": "AVAILABLE",
+      "price": 25530.75,
+      "price_at_cairo": "2026-11-23T08:45:00+02:00",
+      "available_at_cairo": "2026-11-23T09:05:00+02:00",
+      "source": "TradingView NSE:NIFTY",
+      "previous_close": 25800.599609375,
+      "previous_session": "2026-11-20",
+      "return": -0.01045904410984877
+    },
+    {
+      "market": "KOREA",
+      "index": "KOSPI",
+      "date_cairo": "2026-11-23",
+      "status": "AVAILABLE",
+      "price": 4708.5400390625,
+      "price_at_cairo": "2026-11-23T08:30:00+02:00",
+      "available_at_cairo": "2026-11-23T09:00:00+02:00",
+      "source": "Final same-session close",
+      "previous_close": 4869.9599609375,
+      "previous_session": "2026-11-20",
+      "return": -0.03314604702497914
+    },
+    {
+      "market": "GERMANY",
+      "index": "Deutsche Boerse",
+      "date_cairo": "2026-11-23",
+      "status": "OPENS_LATER"
+    },
+    {
+      "market": "SWITZERLAND",
+      "index": "SIX",
+      "date_cairo": "2026-11-23",
+      "status": "OPENS_LATER"
+    },
+    {
+      "market": "SAUDI",
+      "index": "TASI",
+      "date_cairo": "2026-11-23",
+      "status": "AVAILABLE",
+      "price": 10032.12,
+      "price_at_cairo": "2026-11-23T09:30:00+02:00",
+      "available_at_cairo": "2026-11-23T09:50:00+02:00",
+      "source": "TradingView TADAWUL:TASI",
+      "previous_close": 9960.44,
+      "previous_session": "2026-11-22",
+      "return": 0.007196469232283009
+    },
+    {
+      "market": "DOW",
+      "index": "Dow Jones Industrial Average",
+      "date_cairo": "2026-11-23",
+      "status": "OPENS_LATER"
+    },
+    {
+      "market": "FTSE",
+      "index": "FTSE 100",
+      "date_cairo": "2026-11-23",
+      "status": "OPENS_LATER"
+    },
+    {
+      "market": "IBEX",
+      "index": "IBEX 35",
+      "date_cairo": "2026-11-23",
+      "status": "OPENS_LATER"
+    }
+  ]
+}
